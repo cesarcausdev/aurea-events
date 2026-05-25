@@ -27,4 +27,12 @@ As configurações já estão em `netlify.toml`:
 - publish directory: `dist`
 
 Ao conectar o repositório no Netlify, ele deve usar essas configurações automaticamente.
+
+Se aparecer "Page not found" no Netlify, confira nas configurações do site:
+
+- Base directory: deixe vazio
+- Build command: `npm run build`
+- Publish directory: `dist`
+
+Depois clique em "Clear cache and deploy site" para forçar um novo deploy.
 # aurea-events
